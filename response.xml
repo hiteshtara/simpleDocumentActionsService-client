@@ -1,0 +1,429 @@
+{
+
+  "principals": {
+    "principal": [
+      {
+        "principalId": "U333333333",
+        "principalName": "William",
+        "entityId": "U333333333",
+        "active": true,
+        "any": []
+      }
+    ]
+  },
+  "entityTypeContactInfos": {
+    "entityTypeContactInfo": [
+      {
+        "entityId": "U333333333",
+        "entityTypeCode": "PERSON",
+        "entityType": {
+          "code": "PERSON",
+          "name": "Person",
+          "sortCode": "01",
+          "active": true,
+          "any": []
+        },
+        "addresses": {
+          "address": [
+            {
+              "entityTypeCode": "PERSON",
+              "entityId": "U333333333",
+              "addressType": {
+                "code": "WRK",
+                "name": "Work",
+                "sortCode": "a",
+                "active": true,
+                "any": []
+              },
+              "attentionLine": null,
+              "line1": "Administrative Offices - Buick",
+              "line2": "Boston University",
+              "line3": "25 Buick St",
+              "city": "Boston",
+              "stateProvinceCode": "MA",
+              "postalCode": "02215",
+              "countryCode": "US",
+              "attentionLineUnmasked": null,
+              "line1Unmasked": "Administrative Offices - Buick",
+              "line2Unmasked": "Boston University",
+              "line3Unmasked": "25 Buick St",
+              "cityUnmasked": "Boston",
+              "stateProvinceCodeUnmasked": "MA",
+              "postalCodeUnmasked": "02215",
+              "countryCodeUnmasked": "US",
+              "addressFormat": null,
+              "modifiedDate": null,
+              "validatedDate": null,
+              "validated": false,
+              "noteMessage": null,
+              "suppressAddress": false,
+              "defaultValue": true,
+              "active": true,
+              "any": []
+            }
+          ]
+        },
+        "emailAddresses": {
+          "emailAddress": [
+            {
+              "entityTypeCode": "PERSON",
+              "entityId": "U333333333",
+              "emailType": {
+                "code": "WRK",
+                "name": "Work",
+                "sortCode": "a",
+                "active": true,
+                "versionNumber": 1,
+                "any": []
+              },
+              "emailAddress": "U333333333@BU.EDU",
+              "emailAddressUnmasked": "U333333333@BU.EDU",
+              "suppressEmail": false,
+              "defaultValue": true,
+              "active": true,
+              "any": []
+            }
+          ]
+        },
+        "phoneNumbers": {
+          "phoneNumber": [
+            {
+              "entityTypeCode": "PERSON",
+              "entityId": "U333333333",
+              "phoneType": {
+                "code": "WRK",
+                "name": "Work",
+                "sortCode": "a",
+                "active": true,
+                "any": []
+              },
+              "countryCode": null,
+              "phoneNumber": "617-353-9500",
+              "extensionNumber": null,
+              "formattedPhoneNumber": "617-353-9500",
+              "countryCodeUnmasked": null,
+              "phoneNumberUnmasked": "617-353-9500",
+              "extensionNumberUnmasked": null,
+              "formattedPhoneNumberUnmasked": "617-353-9500",
+              "suppressPhone": false,
+              "defaultValue": false,
+              "active": true,
+              "any": []
+            },
+            {
+              "entityTypeCode": "PERSON",
+              "entityId": "U333333333",
+              "phoneType": {
+                "code": "WRK",
+                "name": "Work",
+                "sortCode": "a",
+                "active": true,
+                "any": []
+              },
+              "countryCode": null,
+              "phoneNumber": "617-358-0196",
+              "extensionNumber": null,
+              "formattedPhoneNumber": "617-358-0196",
+              "countryCodeUnmasked": null,
+              "phoneNumberUnmasked": "617-358-0196",
+              "extensionNumberUnmasked": null,
+              "formattedPhoneNumberUnmasked": "617-358-0196",
+              "suppressPhone": false,
+              "defaultValue": true,
+              "active": true,
+              "any": []
+            }
+          ]
+        },
+        "defaultAddress": {
+          "entityTypeCode": "PERSON",
+          "entityId": "U333333333",
+          "addressType": {
+            "code": "WRK",
+            "name": "Work",
+            "sortCode": "a",
+            "active": true,
+            "any": []
+          },
+          "attentionLine": null,
+          "line1": "Administrative Offices - Buick",
+          "line2": "Boston University",
+          "line3": "25 Buick St",
+          "city": "Boston",
+          "stateProvinceCode": "MA",
+          "postalCode": "02215",
+          "countryCode": "US",
+          "attentionLineUnmasked": null,
+          "line1Unmasked": "Administrative Offices - Buick",
+          "line2Unmasked": "Boston University",
+          "line3Unmasked": "25 Buick St",
+          "cityUnmasked": "Boston",
+          "stateProvinceCodeUnmasked": "MA",
+          "postalCodeUnmasked": "02215",
+          "countryCodeUnmasked": "US",
+          "addressFormat": null,
+          "modifiedDate": null,
+          "validatedDate": null,
+          "validated": false,
+          "noteMessage": null,
+          "suppressAddress": false,
+          "defaultValue": true,
+          "active": true,
+          "any": []
+        },
+        "defaultEmailAddress": {
+          "entityTypeCode": "PERSON",
+          "entityId": "M466666",
+          "emailType": {
+            "code": "WRK",
+            "name": "Work",
+            "sortCode": "a",
+            "active": true,
+            "versionNumber": 1,
+            "any": []
+          },
+          "emailAddress": "U333333333@BU.EDU",
+          "emailAddressUnmasked": "U333333333@BU.EDU",
+          "suppressEmail": false,
+          "defaultValue": true,
+          "active": true,
+          "any": []
+        },
+        "defaultPhoneNumber": {
+          "entityTypeCode": "PERSON",
+          "entityId": "M466666",
+          "phoneType": {
+            "code": "WRK",
+            "name": "Work",
+            "sortCode": "a",
+            "active": true,
+            "any": []
+          },
+          "countryCode": null,
+          "phoneNumber": "617-358-0196",
+          "extensionNumber": null,
+          "formattedPhoneNumber": "617-358-0196",
+          "countryCodeUnmasked": null,
+          "phoneNumberUnmasked": "617-358-0196",
+          "extensionNumberUnmasked": null,
+          "formattedPhoneNumberUnmasked": "617-358-0196",
+          "suppressPhone": false,
+          "defaultValue": true,
+          "active": true,
+          "any": []
+        },
+        "active": true,
+        "any": []
+      }
+    ]
+  },
+  "externalIdentifiers": {
+    "externalIdentifier": []
+  },
+  "affiliations": {
+    "affiliation": [
+      {
+        "entityId": "U333333333",
+        "affiliationType": {
+          "code": "0002",
+          "name": "NREP-Staff",
+          "sortCode": null,
+          "active": true,
+          "employmentAffiliationType": false,
+          "any": []
+        },
+        "campusCode": "10",
+        "defaultValue": true,
+        "active": true,
+        "any": []
+      }
+    ]
+  },
+  "names": {
+    "name": [
+      {
+        "entityId": "U333333333",
+        "nameType": {
+          "code": "PRFR",
+          "name": "Preferred",
+          "sortCode": "b",
+          "active": true,
+          "any": []
+        },
+        "namePrefix": null,
+        "nameTitle": null,
+        "firstName": "william",
+        "middleName": null,
+        "lastName": "william",
+        "nameSuffix": null,
+        "compositeName": "william, william",
+        "namePrefixUnmasked": null,
+        "nameTitleUnmasked": null,
+        "firstNameUnmasked": "william",
+        "middleNameUnmasked": null,
+        "lastNameUnmasked": "william",
+        "nameSuffixUnmasked": null,
+        "compositeNameUnmasked": "william, william",
+        "noteMessage": null,
+        "nameChangedDate": null,
+        "suppressName": false,
+        "defaultValue": true,
+        "active": true,
+        "any": []
+      }
+    ]
+  },
+  "employmentInformation": {
+    "employment": [
+      {
+        "entityId": "U333333333",
+        "employeeId": "U333333333",
+        "employmentRecordId": "2",
+        "entityAffiliation": {
+          "entityId": "U333333333",
+          "affiliationType": {
+            "code": "0002",
+            "name": "NREP-Staff",
+            "sortCode": null,
+            "active": true,
+            "employmentAffiliationType": false,
+            "versionNumber": 1,
+            "any": []
+          },
+          "campusCode": "10",
+          "defaultValue": true,
+          "active": true,
+          "any": []
+        },
+        "employeeStatus": {
+          "code": "3",
+          "name": "Active",
+          "sortCode": null,
+          "active": true,
+          "any": []
+        },
+        "employeeType": {
+          "code": "6",
+          "name": "Staff-Exempt FT",
+          "sortCode": null,
+          "active": true,
+          "any": []
+        },
+        "primaryDepartmentCode": "1510500000",
+        "baseSalaryAmount": "0.00",
+        "primary": true,
+        "active": true,
+        "any": []
+      }
+    ]
+  },
+  "privacyPreferences": {
+    "entityId": "U333333333",
+    "suppressName": false,
+    "suppressAddress": false,
+    "suppressEmail": false,
+    "suppressPhone": false,
+    "suppressPersonal": false,
+    "any": []
+  },
+  "bioDemographics": null,
+  "citizenships": {
+    "citizenship": []
+  },
+  "primaryEmployment": {
+    "entityId": "U333333333",
+    "employeeId": "U333333333",
+    "employmentRecordId": "2",
+    "entityAffiliation": {
+      "entityId": "U333333333",
+      "affiliationType": {
+        "code": "0002",
+        "name": "NREP-Staff",
+        "sortCode": null,
+        "active": true,
+        "employmentAffiliationType": false,
+        "any": []
+      },
+      "campusCode": "10",
+      "defaultValue": true,
+      "active": true,
+      "any": []
+    },
+    "employeeStatus": {
+      "code": "3",
+      "name": "Active",
+      "sortCode": null,
+      "active": true,
+      "any": []
+    },
+    "employeeType": {
+      "code": "6",
+      "name": "Staff-Exempt FT",
+      "sortCode": null,
+      "active": true,
+      "any": []
+    },
+    "primaryDepartmentCode": "1510500000",
+    "baseSalaryAmount": "0.00",
+    "primary": true,
+    "active": true,
+    "any": []
+  },
+  "defaultAffiliation": {
+    "entityId": "U333333333",
+    "affiliationType": {
+      "code": "0002",
+      "name": "NREP-Staff",
+      "sortCode": null,
+      "active": true,
+      "employmentAffiliationType": false,
+      "any": []
+    },
+    "campusCode": "10",
+    "defaultValue": true,
+    "active": true,
+    "any": []
+  },
+  "defaultName": {
+    "entityId": "U333333333",
+    "nameType": {
+      "code": "PRFR",
+      "name": "Preferred",
+      "sortCode": "b",
+      "active": true,
+      "any": []
+    },
+    "namePrefix": null,
+    "nameTitle": null,
+    "firstName": "william",
+    "middleName": null,
+    "lastName": "william",
+    "nameSuffix": null,
+    "compositeName": "william, william",
+    "namePrefixUnmasked": null,
+    "nameTitleUnmasked": null,
+    "firstNameUnmasked": "william",
+    "middleNameUnmasked": null,
+    "lastNameUnmasked": "william",
+    "nameSuffixUnmasked": null,
+    "compositeNameUnmasked": "william, william",
+    "noteMessage": null,
+    "nameChangedDate": null,
+    "suppressName": false,
+    "defaultValue": true,
+    "active": true,
+    "any": []
+  },
+  "ethnicities": {
+    "ethnicity": []
+  },
+  "residencies": {
+    "residency": []
+  },
+  "visas": {
+    "visa": []
+  },
+  "active": true,
+  "any": []
+
+}

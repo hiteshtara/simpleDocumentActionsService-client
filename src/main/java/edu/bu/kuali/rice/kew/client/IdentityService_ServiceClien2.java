@@ -17,8 +17,6 @@ import org.apache.cxf.interceptor.LoggingOutInterceptor;
 import org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor;
 import org.apache.wss4j.dom.WSConstants;
 import org.apache.wss4j.dom.handler.WSHandlerConstants;
-import org.kuali.rice.kim.v2_0.CodedAttributeType;
-import org.kuali.rice.kim.v2_0.EntityAffiliationTypeType;
 import org.kuali.rice.kim.v2_0.GetEntityByEmployeeId;
 import org.kuali.rice.kim.v2_0.GetEntityByEmployeeIdResponse;
 import org.kuali.rice.kim.v2_0.IdentityService;
@@ -42,7 +40,7 @@ private IdentityService_ServiceClien2() {
 }
 
 public static void main(String args[]) throws Exception {
-    URL wsdlURL = IdentityService_Service.WSDL_LOCATION;
+    URL wsdlURL = IdentityService.WSDL_LOCATION;
     if (args.length > 0) {
         File wsdlFile = new File(args[0]);
         try {

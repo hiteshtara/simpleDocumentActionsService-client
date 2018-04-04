@@ -1,6 +1,6 @@
 <wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://rice.kuali.org/kim/v2_0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:ns1="http://rice.kuali.org/core/v2_0" name="identityService" targetNamespace="http://rice.kuali.org/kim/v2_0">
 <wsdl:types>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://rice.kuali.org/kim/v2_0" xmlns:ns1="http://rice.kuali.org/core/v2_0" elementFormDefault="qualified" targetNamespace="http://rice.kuali.org/kim/v2_0" version="1.0">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://rice.kuali.org/kim/v2_0" xmlns:ns1="http://rice.kuali.org/core/v2_0" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://rice.kuali.org/kim/v2_0">
 <xs:import namespace="http://rice.kuali.org/core/v2_0"/>
 <xs:element name="addAddressToEntity" type="tns:addAddressToEntity"/>
 <xs:element name="addAddressToEntityResponse" type="tns:addAddressToEntityResponse"/>
@@ -4065,7 +4065,7 @@
 </wsdl:binding>
 <wsdl:service name="identityService">
 <wsdl:port binding="tns:identityServiceSoapBinding" name="identityServicePort">
-<soap:address location="http://localhost:8080/kc-dev/remoting/soap/kim/v2_0/identityService"/>
+<soap:address location="https://kuali-research-qa.bu.edu/kc/remoting/soap/kim/v2_0/identityService"/>
 </wsdl:port>
 </wsdl:service>
 </wsdl:definitions>

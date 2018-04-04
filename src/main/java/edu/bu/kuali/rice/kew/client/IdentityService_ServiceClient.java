@@ -6,7 +6,10 @@ import java.net.URL;
 import javax.xml.namespace.QName;
 
 import org.kuali.rice.kim.v2_0.CodedAttributeType;
+import org.kuali.rice.kim.v2_0.CreateEntity;
+import org.kuali.rice.kim.v2_0.CreateEntityResponse;
 import org.kuali.rice.kim.v2_0.EntityAffiliationTypeType;
+import org.kuali.rice.kim.v2_0.EntityType;
 import org.kuali.rice.kim.v2_0.GetEntityByEmployeeId;
 import org.kuali.rice.kim.v2_0.GetEntityByEmployeeIdResponse;
 import org.kuali.rice.kim.v2_0.IdentityService;
@@ -35,9 +38,16 @@ public final class IdentityService_ServiceClient {
       IdentityService svc = client.getCampusService( wsdlURL );
 		//Campuses campuses = svc.findAllCampuses();
       GetEntityByEmployeeId id= new GetEntityByEmployeeId();
-      id.setEmployeeId("U17116978");
-      GetEntityByEmployeeIdResponse test=   svc.getEntityByEmployeeId(id);
-      System.out.println( test.toString() );
+      CreateEntity createNewEntity = new CreateEntity();
+      EntityType type = new EntityType();
+      type.setActive(true);
+     // type.setAffiliations(value);
+      createNewEntity.setEntity(type);
+
+      CreateEntityResponse  response= svc.createEntity(createNewEntity);
+     // id.setEmployeeId("U17116978");
+     // GetEntityByEmployeeIdResponse test=   svc.getEntityByEmployeeId(id);
+      System.out.println( response.toString() );
 
       //for( CodedAttributeType campus : svc.findAllEmploymentStatuses() )
 		//{
